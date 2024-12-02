@@ -44,10 +44,10 @@ def animate_key():
 
 window = tk.Tk()
 window.title("Генератор ключей")
-window.geometry("800x450")
+window.geometry("700x450")
 
 bg_img = Image.open("dcs.jpg") 
-bg_img = bg_img.resize((800, 450), Image.Resampling.LANCZOS)
+bg_img = bg_img.resize((700, 450), Image.Resampling.LANCZOS)
 bg_photo = ImageTk.PhotoImage(bg_img)
 
 bg_lbl = tk.Label(window, image=bg_photo)
