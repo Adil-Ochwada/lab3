@@ -7,7 +7,7 @@ from PIL import Image, ImageTk
 import pygame
 
 pygame.mixer.init()
-pygame.mixer.music.load("labo.mp3")  
+pygame.mixer.music.load("gta.mp3")  
 pygame.mixer.music.play(-1)
 
 def generate_block():
@@ -46,7 +46,7 @@ window = tk.Tk()
 window.title("Генератор ключей")
 window.geometry("800x450")
 
-bg_img = Image.open("lab.jpg") 
+bg_img = Image.open("dcs.jpg") 
 bg_img = bg_img.resize((800, 450), Image.Resampling.LANCZOS)
 bg_photo = ImageTk.PhotoImage(bg_img)
 
